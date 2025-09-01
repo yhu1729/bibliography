@@ -1,6 +1,6 @@
 BASH := /usr/bin/env bash
 LATEXMK := latexmk
-LATEXMK_FLAGS = -output-directory=output -lualatex -quiet -jobname=bibliography
+LATEXMK_FLAGS = -g -output-directory=output -lualatex -quiet -jobname=bibliography
 LATEXMK_CLEAN_FLAGS = $(LATEXMK_FLAGS) -c
 
 all: bibliography.pdf
