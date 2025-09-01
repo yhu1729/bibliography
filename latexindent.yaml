@@ -1,0 +1,7 @@
+defaultIndent: '  '
+onlyOneBackUp: 1
+removeTrailingWhitespace: 1
+noIndentBlock:
+  noindent:
+    begin: '\%\ \[noindent\]'
+    end: '\%\ \[noindent\]'
